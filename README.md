@@ -2,13 +2,14 @@
 ## Presentación
 Los módulos educativos son una herramienta invaluable para los estudiantes, que les permite aprender de forma tangible los conocimientos de cada Unidad Didáctica.
 
-El presente proyecto es una iniciativa innovadora que busca desarrollar un **módulo educativo de codigo abierto** para multiples Unidades Didáctica, que lo puedan fabricar docentes, estudiantes y que permita trabajar con:
+El presente proyecto es una iniciativa innovadora que busca desarrollar un **módulo educativo de codigo abierto** para multiples Unidades Didáctica, que lo puedan fabricar los docentes o estudiantes y que permita trabajar con:
 - Electrónica Analógica
 - Electrónica Digital
 - Electrónica Potencia
 - Programación Embebida
 - Redes
 - Telecomunicaciones, entre otras.
+
 El proyecto esta desarrollado por los docentes y estudiantes del Programa de Electronica Industrial.
 ## Proyecto PPDuino
 Para esta primera etapa e inspirados por dispositivos PLCs como el S7-1200 y Logo de Siemens, el objetivo es disenar y fabricar un módulo educativo tipo PLC.
