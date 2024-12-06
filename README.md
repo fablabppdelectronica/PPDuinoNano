@@ -1,6 +1,6 @@
-# MODULO EDUCATIVO: PPDuino Nano
+# MÓDULO EDUCATIVO: PPDuino Nano
 ## Presentacion
-Los modulos educativos son una herramienta invaluable para los estudiantes que les permite aprender de forma tangible los conocimientos de cada Unidad Didactica.
+Los modulos educativos son una herramienta invaluable para los estudiantes, que les permite aprender de forma tangible los conocimientos de cada Unidad Didactica.
 El presente proyecto es una iniciativa innovadora que busca desarrollar un modulo educativo de codigo abierto para multiples Unidades Didactica, como:
 - Electronica Analogica
 - Electronica Digital
@@ -11,7 +11,7 @@ El presente proyecto es una iniciativa innovadora que busca desarrollar un modul
 En esta etapa inicial, estara siendo desarrollada por los docentes y estudiantes del Programa de Electronica Industrial.
 ## Proyecto PPDuino
 Para esta primera etapa e inspirados por dispositivos PLC como el S7-1200 y Logo de Siemens, el objetivo es disenar y fabricar un modulo educativo tipo PLC, mostramos el bosquejo proyectado. 
-![Boceto del modulo educativo PPDuino Nano](/files/img/1_PPDuino%20Nano_Sketch.jpg){width='100px'}
+![Boceto del modulo educativo PPDuino Nano](/files/img/1_PPDuino%20Nano_Sketch.jpg){width='60px'}
 # NOSOTROS
 ## IESTP Pedro P. Diaz
 Somos el Instituo Superior de la Cuidad de Arequipa en Peru, forma profesionales que aportan desarrollo a la comunidad, region y pais.
