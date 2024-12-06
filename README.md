@@ -14,9 +14,10 @@ Para esta primera etapa e inspirados por dispositivos PLCs como el S7-1200 y Log
 ![Boceto del modulo educativo PPDuino Nano](/files/img/1_PPDuino%20Nano_Sketch.jpg){width='60px'}
 <div>
 <p style = 'text-align:center;'>
-<img src="/files/img/1_PPDuino%20Nano_Sketch.jpg" alt="JuveYell" width="300px">
+<img src="/files/img/1_PPDuino%20Nano_Sketch.jpg" alt="JuveYell" width="400px">
 </p>
 </div>
+
 # NOSOTROS
 ## IESTP Pedro P. Díaz
 Somos el Instituto Superior Pedro P. Díaz de la cuidad de Arequipa en Perú, formamos profesionales que aportan desarrollo a la comunidad, región y pais.
