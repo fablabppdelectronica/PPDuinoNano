@@ -1,6 +1,6 @@
 # MÓDULO EDUCATIVO: PPDuino Nano
-## Presentacion
-Los mÓdulos educativos son una herramienta invaluable para los estudiantes, que les permite aprender de forma tangible los conocimientos de cada Unidad Didáctica.
+## Presentación
+Los módulos educativos son una herramienta invaluable para los estudiantes, que les permite aprender de forma tangible los conocimientos de cada Unidad Didáctica.
 El presente proyecto es una iniciativa innovadora que busca desarrollar un módulo educativo de codigo abierto para multiples Unidades Didáctica, como:
 - Electrónica Analógica
 - Electrónica Digital
