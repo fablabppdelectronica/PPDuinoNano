@@ -11,12 +11,7 @@ El presente proyecto es una iniciativa innovadora que busca desarrollar un **mó
 El proyecto esta desarrollado por los docentes y estudiantes del Programa de Electronica Industrial.
 ## Proyecto PPDuino
 Para esta primera etapa e inspirados por dispositivos PLCs como el S7-1200 y Logo de Siemens, el objetivo es disenar y fabricar un módulo educativo tipo PLC, mostramos el bosquejo proyectado. 
-![Boceto del modulo educativo PPDuino Nano](/files/img/1_PPDuino%20Nano_Sketch.jpg){width='60px'}
-<div>
-<p style = 'text-align:center;'>
-<img src="/files/img/1_PPDuino%20Nano_Sketch.jpg" alt="JuveYell" width="400px">
-</p>
-</div>
+<div><p style = 'text-align:center;'><img src="/files/img/1_PPDuino%20Nano_Sketch.jpg" alt="JuveYell" width="500px"></p></div>
 
 # NOSOTROS
 ## IESTP Pedro P. Díaz
