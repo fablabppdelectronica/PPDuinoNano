@@ -1,12 +1,12 @@
 {
   "baud": "115200",
   "board_type": "Arduino Nano",
-  "com_port": "COM7",
+  "com_port": "COM5",
   "dns": "8.8.8.8",
   "gateway": "192.168.1.1",
   "ip": "192.168.1.195",
-  "last_modified": 1729212778.7948742,
-  "last_update": 1729212778.7948742,
+  "last_modified": 1753134500.0517886,
+  "last_update": 1753132863.7058003,
   "mac": "0xDE, 0xAD, 0xBE, 0xEF, 0xDE, 0xAD",
   "mb_serial": false,
   "mb_tcp": false,
@@ -17,8 +17,8 @@
   "subnet": "255.255.255.0",
   "tcp_iface": "WiFi",
   "txpin": "-1",
-  "user_ain": "A0, A1, A2, A3, A4, A5",
-  "user_aout": "9, 10, 11",
-  "user_din": "2, 3, 4, 5, 6",
-  "user_dout": "7, 8, 12, 13"
+  "user_ain": "A7, A6",
+  "user_aout": "3, 5, 6, 9",
+  "user_din": "14, 15, 16, 17",
+  "user_dout": "3, 5, 6, 9, 7, 8"
 }

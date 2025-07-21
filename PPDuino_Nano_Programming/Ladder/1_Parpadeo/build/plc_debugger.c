@@ -94,7 +94,8 @@ typedef const struct {
 } dbgvardsc_t;
 
 static const dbgvardsc_t dbgvardsc[] = {
-{&(RES0__INSTANCE0.BLINK_LED), BOOL_O_ENUM},
+{&(RES0__INSTANCE0.PINSALIDA), BOOL_O_ENUM},
+{&(RES0__INSTANCE0.PINPULSADOR), BOOL_P_ENUM},
 {&(RES0__INSTANCE0.TON0.EN), BOOL_ENUM},
 {&(RES0__INSTANCE0.TON0.ENO), BOOL_ENUM},
 {&(RES0__INSTANCE0.TON0.IN), BOOL_ENUM},

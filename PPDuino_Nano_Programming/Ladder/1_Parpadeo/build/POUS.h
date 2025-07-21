@@ -35,7 +35,8 @@ typedef struct {
   // PROGRAM Interface - IN, OUT, IN_OUT variables
 
   // PROGRAM private variables - TEMP, private and located variables
-  __DECLARE_LOCATED(BOOL,BLINK_LED)
+  __DECLARE_LOCATED(BOOL,PINSALIDA)
+  __DECLARE_LOCATED(BOOL,PINPULSADOR)
   TON TON0;
   TOF TOF0;
 

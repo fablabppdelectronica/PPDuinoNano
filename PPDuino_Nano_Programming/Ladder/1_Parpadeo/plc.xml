@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <project xmlns:ns1="http://www.plcopen.org/xml/tc6_0201" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
   <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2022-08-16T15:49:17"/>
-  <contentHeader name="PPDuino_Nano" modificationDateTime="2024-12-06T10:45:24">
+  <contentHeader name="PPDuino_Nano" modificationDateTime="2025-07-21T17:06:23">
     <coordinateInfo>
       <fbd>
         <scaling x="10" y="10"/>
@@ -20,7 +20,12 @@
       <pou name="Blink" pouType="program">
         <interface>
           <localVars>
-            <variable name="blink_led" address="%QX0.3">
+            <variable name="pinSalida" address="%QX0.3">
+              <type>
+                <BOOL/>
+              </type>
+            </variable>
+            <variable name="pinPulsador" address="%IX0.3">
               <type>
                 <BOOL/>
               </type>
@@ -120,7 +125,7 @@
                 <relPosition x="0" y="100"/>
                 <connection refLocalId="6">
                   <position x="990" y="210"/>
-                  <position x="850" y="210"/>
+                  <position x="870" y="210"/>
                 </connection>
               </connectionPointIn>
               <connectionPointIn>
@@ -181,9 +186,9 @@
                 <variable formalParameter="EN">
                   <connectionPointIn>
                     <relPosition x="0" y="40"/>
-                    <connection refLocalId="1">
+                    <connection refLocalId="10">
                       <position x="350" y="170"/>
-                      <position x="100" y="170"/>
+                      <position x="200" y="170"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -287,21 +292,21 @@
               <connectionPointOut>
                 <relPosition x="30" y="10"/>
               </connectionPointOut>
-              <variable>blink_led</variable>
+              <variable>pinSalida</variable>
             </contact>
             <coil localId="6" height="20" width="30" negated="false">
-              <position x="820" y="200"/>
+              <position x="840" y="200"/>
               <connectionPointIn>
                 <relPosition x="0" y="10"/>
                 <connection refLocalId="4" formalParameter="Q">
-                  <position x="820" y="210"/>
+                  <position x="840" y="210"/>
                   <position x="730" y="210"/>
                 </connection>
               </connectionPointIn>
               <connectionPointOut>
                 <relPosition x="30" y="10"/>
               </connectionPointOut>
-              <variable>blink_led</variable>
+              <variable>pinSalida</variable>
             </coil>
             <inVariable localId="7" height="40" width="70" negated="false">
               <position x="240" y="230"/>
@@ -323,6 +328,20 @@
                 <xhtml:p><![CDATA[This example cascades two timers (TON and TOF) to generate a square wave. The width of the wave is determined by the size of the PT variable on both timers.]]></xhtml:p>
               </content>
             </comment>
+            <contact localId="10" negated="true" width="21" height="20">
+              <position x="180" y="160"/>
+              <connectionPointIn>
+                <relPosition x="0" y="10"/>
+                <connection refLocalId="1">
+                  <position x="180" y="170"/>
+                  <position x="100" y="170"/>
+                </connection>
+              </connectionPointIn>
+              <connectionPointOut>
+                <relPosition x="21" y="10"/>
+              </connectionPointOut>
+              <variable>pinPulsador</variable>
+            </contact>
           </LD>
         </body>
       </pou>

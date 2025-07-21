@@ -23,16 +23,17 @@ END_FUNCTION_BLOCK
 
 PROGRAM Blink
   VAR
-    blink_led AT %QX0.3 : BOOL;
+    pinSalida AT %QX0.3 : BOOL;
+    pinPulsador AT %IX0.3 : BOOL;
   END_VAR
   VAR
     TON0 : TON;
     TOF0 : TOF;
   END_VAR
 
-  TON0(EN := TRUE, IN := NOT(blink_led), PT := T#500ms);
-  TOF0(EN := TON0.ENO, IN := TON0.Q, PT := T#500ms);
-  blink_led := TOF0.Q;
+  TON0(EN := NOT(pinPulsador), IN := NOT(pinSalida), PT := T#100ms);
+  TOF0(EN := TON0.ENO, IN := TON0.Q, PT := T#100ms);
+  pinSalida := TOF0.Q;
 END_PROGRAM
 
 
