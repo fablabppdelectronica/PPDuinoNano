@@ -21,7 +21,29 @@ Se trabajara en 3 areas:
 
 Mostramos el bosquejo proyectado. 
 <div><p style = 'text-align:center;'><img src="/files/img/0.jpg" alt="JuveYell" width="300px"></p></div>
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="300px"></p></div>
+Hasta conseguir el PMV se siguien la secuencia que se muestra en la imagen:
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+
+## Diseño Electrónico
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+
+## Diseño 3D
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+
+## Fabricacion
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+
+## Programación
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+
+### Programación con Arduino IDE (C++)
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+
+### Programación con OpenPLC (Ladder)
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+
+### Programación con Fab Blocks (Blockly)
+<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
 
 # NOSOTROS
 ## IESTP Pedro P. Díaz
