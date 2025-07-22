@@ -20,7 +20,7 @@ Se trabajara en 3 areas:
 - Programación.
 
 Mostramos el bosquejo proyectado. 
-<div><p style = 'text-align:center;'><img src="/files/img/0.jpg" alt="JuveYell" width="500px"></p></div>
+<div><p style = 'text-align:center;'><img src="/files/img/0.jpg" alt="JuveYell" width="400px"></p></div>
 
 # NOSOTROS
 ## IESTP Pedro P. Díaz
