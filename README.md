@@ -44,16 +44,14 @@ Hasta conseguir el PMV se siguien la secuencia que se muestra en la imagen:
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic/PCB1.jpeg" alt="JuveYell" width="700px"></p></div>
 
 ## Programación
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
-
 ### Programación con Arduino IDE (C++)
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
 
-### Programación con OpenPLC (Ladder)
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
 
-### Programación con Fab Blocks (Blockly)
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
+
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Ladder\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
 
 # NOSOTROS
 ## IESTP Pedro P. Díaz
