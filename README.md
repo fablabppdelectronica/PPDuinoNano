@@ -28,13 +28,13 @@ Hasta conseguir el PMV se siguien la secuencia que se muestra en la imagen:
 <div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
 
 ### Procesador
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Procesador/PPDuino Nano Procesador SCH.png" alt="JuveYell" width="700px"></p></div>
 
 ### Entradas
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Entradas/PPDuino Nano Entradas SCH.png" alt="JuveYell" width="700px"></p></div>
 
 ### Salidas
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Salidas/PPDuino Nano Salidas SCH.png" alt="JuveYell" width="700px"></p></div>
 
 ## Diseño 3D
 <div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
