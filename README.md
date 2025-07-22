@@ -25,8 +25,6 @@ Hasta conseguir el PMV se siguien la secuencia que se muestra en la imagen:
 <div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
 
 ## Diseño Electrónico
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
-
 ### Procesador
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Procesador/PPDuino Nano Procesador SCH.png" alt="JuveYell" width="700px"></p></div>
 
@@ -36,11 +34,12 @@ Hasta conseguir el PMV se siguien la secuencia que se muestra en la imagen:
 ### Salidas
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Salidas/PPDuino Nano Salidas SCH.png" alt="JuveYell" width="700px"></p></div>
 
-## Diseño 3D
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
-
 ## Fabricacion
-<div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_3D_Design/img/Impresion3D1.png" alt="JuveYell" width="700px"></p></div>
+
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_3D_Design/img/Impresion3D2.png" alt="JuveYell" width="700px"></p></div>
+
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_3D_Design/img/Impresion3D3.png" alt="JuveYell" width="700px"></p></div>
 
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic/PCB1.jpeg" alt="JuveYell" width="700px"></p></div>
 
