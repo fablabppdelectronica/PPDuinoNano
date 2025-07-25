@@ -21,7 +21,7 @@ Se trabajara en 3 areas:
 
 Mostramos el bosquejo proyectado. 
 <div><p style = 'text-align:center;'><img src="/files/img/0.jpg" alt="JuveYell" width="300px"></p></div>
-Hasta conseguir el PMV se siguien la secuencia que se muestra en la imagen:
+Para conseguir el Producto Mínimo Viable, se siguieron la secuencia que se muestra en la imagen:
 <div><p style = 'text-align:center;'><img src="/files/img/All.png" alt="JuveYell" width="700px"></p></div>
 
 ## Diseño Electrónico
@@ -35,9 +35,10 @@ Hasta conseguir el PMV se siguien la secuencia que se muestra en la imagen:
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Salidas/PPDuino Nano Salidas SCH.png" alt="JuveYell" width="700px"></p></div>
 
 ## Fabricacion
+### Impresión 3D
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_3D_Design/Impresion3D1.png" alt="JuveYell" width="700px"></p></div>
 
-<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_3D_Design/Impresion3D2.jpeg" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_3D_Design/Impresion3D2.jpeg" alt="JuveYell" width="500px"></p></div>
 
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_3D_Design/Impresion3D3.jpeg" alt="JuveYell" width="700px"></p></div>
 
