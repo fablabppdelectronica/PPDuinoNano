@@ -64,9 +64,7 @@ Para conseguir el Producto Mínimo Viable, se siguieron la secuencia que se mues
 
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Ladder\1_Parpadeo/4.png" alt="JuveYell" width="700px"></p></div>
 
-### Programación con OpenPLC IDE (Ladder)
-D:\Fab Lab PPD Electronica\PPDuino_Nano\PPDuino_Nano_Programming\Blockly\1_Parpadeo
-
+### Programación con Fab Blocks (Bloques)
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Blockly\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
 
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Blockly\1_Parpadeo/1.png" alt="JuveYell" width="700px"></p></div>
