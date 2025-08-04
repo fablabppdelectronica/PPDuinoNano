@@ -26,13 +26,13 @@ Para conseguir el Producto Mínimo Viable, se siguieron la secuencia que se mues
 
 ## Diseño Electrónico
 ### Procesador
-<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Procesador/V0.1/Procesador/PPDuino Nano Procesador SCH.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1\Procesador\PPDuino Nano Procesador SCH.png" alt="JuveYell" width="700px"></p></div>
 
 ### Entradas
-<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Entradas/V0.1/Entradas/PPDuino Nano Entradas SCH.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1/Entradas/PPDuino Nano Entradas SCH.png" alt="JuveYell" width="700px"></p></div>
 
 ### Salidas
-<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\PPDuino Nano Salidas/V0.1/Salidas/PPDuino Nano Salidas SCH.png" alt="JuveYell" width="700px"></p></div>
+<div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1/Salidas/PPDuino Nano Salidas SCH.png" alt="JuveYell" width="700px"></p></div>
 
 ## Fabricacion
 ### Impresión 3D
