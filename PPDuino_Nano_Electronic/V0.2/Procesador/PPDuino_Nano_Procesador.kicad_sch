@@ -2288,138 +2288,6 @@
 				)
 			)
 		)
-		(symbol "power:Earth"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Earth"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground gnd"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Earth_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2733,16 +2601,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 114.3) (xy 247.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155c2d23-6ecb-4efe-8a37-2125c39a223e")
-	)
-	(wire
-		(pts
 			(xy 99.06 168.91) (xy 99.06 170.18)
 		)
 		(stroke
@@ -2760,6 +2618,16 @@
 			(type default)
 		)
 		(uuid "182e3fa9-696e-4cb9-9b03-965fbcd8a1c1")
+	)
+	(wire
+		(pts
+			(xy 251.46 114.3) (xy 247.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abc3539-dab1-46c4-be6e-5f0830bf5634")
 	)
 	(wire
 		(pts
@@ -2953,16 +2821,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 111.76) (xy 247.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3cb69f-2cca-49a2-af21-0be17a3f4c01")
-	)
-	(wire
-		(pts
 			(xy 76.2 140.97) (xy 83.82 140.97)
 		)
 		(stroke
@@ -3084,7 +2942,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 119.38) (xy 252.73 119.38)
+			(xy 247.65 119.38) (xy 251.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 116.84) (xy 252.73 116.84)
+			(xy 247.65 116.84) (xy 251.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3361,6 +3219,16 @@
 			(type default)
 		)
 		(uuid "dcf308fc-868c-4376-a9e2-d21f3d715461")
+	)
+	(wire
+		(pts
+			(xy 251.46 111.76) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27e8fdd-bb52-4da2-ae7c-0316593bafc0")
 	)
 	(wire
 		(pts
@@ -3620,7 +3488,7 @@
 		)
 		(uuid "3a98344e-859d-49d7-84f1-65fd44215bb8")
 	)
-	(label "AI0"
+	(label "DI0m"
 		(at 220.98 133.35 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3686,7 +3554,7 @@
 		)
 		(uuid "6bb97200-0f16-4811-89ef-f16db31bacf8")
 	)
-	(label "DI0m"
+	(label "AI1m"
 		(at 233.68 133.35 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3719,7 +3587,7 @@
 		)
 		(uuid "7f3cf2d5-8d14-48a7-b14f-a0b34f6873c1")
 	)
-	(label "AI1"
+	(label "DI1m"
 		(at 223.52 133.35 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3796,7 +3664,7 @@
 		)
 		(uuid "b712182b-1f1e-41ec-bddf-ff001d247ef2")
 	)
-	(label "DI1m"
+	(label "AI0m"
 		(at 231.14 133.35 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3807,7 +3675,7 @@
 		)
 		(uuid "bedf9171-2523-4a88-931d-6a64d57e8cdc")
 	)
-	(label "DI2m"
+	(label "DI3m"
 		(at 228.6 133.35 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3862,7 +3730,7 @@
 		)
 		(uuid "daad3e18-1ec9-44a3-a184-ed49ee8f0d66")
 	)
-	(label "DI3m"
+	(label "DI2m"
 		(at 226.06 133.35 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3884,7 +3752,7 @@
 		)
 		(uuid "dd033d6c-8f6a-4dfb-976f-e30b53879e53")
 	)
-	(label "AI1"
+	(label "AI1m"
 		(at 116.84 158.75 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3928,7 +3796,7 @@
 		)
 		(uuid "f621ceaa-c96b-4fdf-941b-7c6a2c0651b7")
 	)
-	(label "AI0"
+	(label "AI0m"
 		(at 116.84 161.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4098,6 +3966,137 @@
 			(project "PPDuino_Nano"
 				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17fc9969-e313-45fc-9eb3-2b3ab1528223")
+		(property "Reference" "#PWR014"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4cb8dae-6ceb-4f86-bb81-3a52cde59a42")
+		)
+		(instances
+			(project "PPDuino_Nano_Procesador"
+				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ec0c772-aa6c-4580-8ff4-85d9f4f93828")
+		(property "Reference" "#PWR05"
+			(at 242.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfa56955-8f25-49c8-ba62-35a9a422c46e")
+		)
+		(instances
+			(project "PPDuino_Nano_Procesador"
+				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4365,6 +4364,72 @@
 			(project "PPDuino_Nano"
 				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 119.38 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b996822-368d-4eeb-ad3e-ceb5e226b60f")
+		(property "Reference" "#PWR017"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.048 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80b35631-a608-4b98-bb8c-80dd3e20019d")
+		)
+		(instances
+			(project "PPDuino_Nano_Procesador"
+				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4645,7 +4710,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 252.73 114.3 270)
+		(at 251.46 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4655,7 +4720,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c45aa1f-e2cd-4000-9819-e0da8d9c4246")
 		(property "Reference" "#PWR029"
-			(at 248.92 114.3 0)
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4729,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 256.54 114.3001 90)
+			(at 255.27 111.7601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 114.3 0)
+			(at 251.46 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 114.3 0)
+			(at 251.46 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 252.73 114.3 0)
+			(at 251.46 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,82 +4943,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 106.68 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b56ae38-8a06-42e0-b859-932f6f58a2e6")
-		(property "Reference" "#PWR014"
-			(at 106.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 106.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85ab929a-33a0-4152-8790-b93ea650bf50")
-		)
-		(instances
-			(project "PPDuino_Nano_Procesador"
-				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 242.57 66.04 0)
+		(lib_id "power:GND")
+		(at 243.84 135.89 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "81895f22-c707-4492-8ba9-99366fee1fbb")
-		(property "Reference" "#PWR05"
-			(at 242.57 59.69 0)
+		(uuid "8b836c4d-3229-4637-8865-da480c26e09c")
+		(property "Reference" "#PWR01"
+			(at 243.84 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,8 +4961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 242.57 59.69 90)
+		(property "Value" "GND"
+			(at 243.84 130.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +4970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 66.04 0)
+			(at 243.84 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,8 +4978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 242.57 66.04 0)
+		(property "Datasheet" ""
+			(at 243.84 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,8 +4987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 242.57 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,12 +4997,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "67b52f87-883b-4f6b-9044-dda3c51ac25c")
+			(uuid "22e1ddd0-8289-4474-a5f7-103d5cebf6de")
 		)
 		(instances
-			(project "PPDuino_Nano"
+			(project "PPDuino_Nano_Procesador"
 				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5345,71 +5345,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 62.23 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bac5397b-bbe7-429a-803a-a86908e6181e")
-		(property "Reference" "#PWR011"
-			(at 62.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 62.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "608cc556-60ff-4d9b-97a0-cf92c0da3ee9")
-		)
-		(instances
-			(project ""
-				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 86.36 53.34 0)
 		(unit 1)
@@ -5470,72 +5405,6 @@
 			(project "PPDuino_Nano"
 				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 243.84 135.89 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d09ec896-bc6d-494c-a12f-59a84374c3d4")
-		(property "Reference" "#PWR01"
-			(at 243.84 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 243.84 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 243.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95d5b8f1-5b7a-43b0-a21f-04025769c6b1")
-		)
-		(instances
-			(project "PPDuino_Nano"
-				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5680,7 +5549,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 252.73 116.84 270)
+		(at 251.46 116.84 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5690,7 +5559,7 @@
 		(fields_autoplaced yes)
 		(uuid "d763b55b-0b3c-4252-aba4-ad077016e0e7")
 		(property "Reference" "#PWR027"
-			(at 248.92 116.84 0)
+			(at 247.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5568,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 256.54 116.8401 90)
+			(at 255.27 116.8401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 116.84 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 116.84 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 252.73 116.84 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 111.76 90)
+		(at 251.46 114.3 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6006,7 +5875,7 @@
 		(dnp no)
 		(uuid "e62a8038-dc44-44d0-8181-dc3d0779cd36")
 		(property "Reference" "#PWR028"
-			(at 259.08 111.76 0)
+			(at 257.81 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +5884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 258.318 111.76 90)
+			(at 257.048 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +5892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 111.76 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +5901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 111.76 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +5910,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 111.76 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,6 +5925,71 @@
 			(project "PPDuino_Nano"
 				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8812081-35bc-45af-96e7-867556292b95")
+		(property "Reference" "#PWR011"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c213741-b8e0-4a06-9789-460dbe148bea")
+		)
+		(instances
+			(project "PPDuino_Nano_Procesador"
+				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6289,72 +6223,6 @@
 			(project "PPDuino_Nano_Procesador"
 				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 252.73 119.38 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc41bef3-312f-4be6-8a92-55fa4f1c42e7")
-		(property "Reference" "#PWR026"
-			(at 259.08 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 259.08 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 252.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61b05e12-f60c-4ab5-a109-3870431e4e5d")
-		)
-		(instances
-			(project "PPDuino_Nano"
-				(path "/b5c16b51-9978-4367-8cf9-23a34dd091bb"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)

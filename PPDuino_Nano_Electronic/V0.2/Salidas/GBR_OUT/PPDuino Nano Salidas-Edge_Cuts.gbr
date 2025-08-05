@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*%
+%TF.CreationDate,2025-08-05T17:27:05-05:00*%
+%TF.ProjectId,PPDuino Nano Salidas,50504475-696e-46f2-904e-616e6f205361,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2025-08-05 17:27:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X117600000Y-43775000D02*
+X169200000Y-43775000D01*
+X169200000Y-136575000D01*
+X117600000Y-136575000D01*
+X117600000Y-43775000D01*
+M02*

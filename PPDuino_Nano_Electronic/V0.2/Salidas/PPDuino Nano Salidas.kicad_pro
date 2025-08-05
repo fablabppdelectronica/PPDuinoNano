@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.8
         }
       },
       "diff_pair_dimensions": [
@@ -215,6 +215,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.4
         },
         {
           "diameter": 1.8,
@@ -492,7 +496,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GBR_OUT/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PPDuino Nano Salidas V2.step",

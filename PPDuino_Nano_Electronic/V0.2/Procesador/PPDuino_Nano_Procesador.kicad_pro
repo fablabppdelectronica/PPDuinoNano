@@ -216,6 +216,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 1.5,
+          "drill": 0.4
+        },
+        {
           "diameter": 1.8,
           "drill": 0.8
         },
@@ -491,7 +495,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "PROCESADOR/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PPDuino_Nano Procesador V2.step",
