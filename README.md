@@ -1,8 +1,10 @@
 # MÓDULO EDUCATIVO: PPDuino Nano
 ## Presentación
-Los módulos educativos son una herramienta invaluable para los estudiantes, que les permite aprender de forma tangible los conocimientos de cada Unidad Didáctica.
+Los módulos educativos son una herramienta invaluable para los estudiantes, que les permite aprender de forma tangible y efectiva los conocimientos de cada Unidad Didáctica.
 
-El presente proyecto es una iniciativa innovadora que busca desarrollar un **módulo educativo de codigo abierto** para multiples Unidades Didáctica, que lo puedan fabricar los docentes o estudiantes y que permita trabajar con:
+El presente proyecto es una iniciativa innovadora que busca desarrollar un **módulo educativo de codigo abierto** que permitirá realizar los laboratorios de multiples unidades d
+
+idáctica, que lo puedan fabricar los docentes o estudiantes y que permita trabajar con:
 - Electrónica Analógica
 - Electrónica Digital
 - Electrónica Potencia
@@ -47,8 +49,14 @@ Para conseguir el Producto Mínimo Viable, se siguieron la secuencia que se mues
 
 ## Programación
 ### Programación con Arduino IDE (C++)
+
+Descarguemos el software nativo para programar el Arduino Nano en [Descargar Arduino IDE](https://www.arduino.cc/en/software/)
+
+Reconoscamos las herramientas de Arduino IDE
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
 
+Seleccionar en BOARDS: Arduino Nano
+Seleccionar en PORTS: COMx (Dependera del puerto asignado desde su computadora)
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/1.png" alt="JuveYell" width="700px"></p></div>
 
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/2.png" alt="JuveYell" width="700px"></p></div>
