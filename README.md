@@ -50,7 +50,7 @@ Para conseguir el Producto Mínimo Viable, se siguieron la secuencia que se mues
 ## Programación
 ### Programación con Arduino IDE (C++)
 
-Descarguemos el software nativo para programar el Arduino Nano en [Descargar Arduino IDE](https://www.arduino.cc/en/software/)
+Descarguemos el software para programar el Arduino Nano en [Descargar Arduino IDE](https://www.arduino.cc/en/software/)
 
 Reconoscamos las herramientas de Arduino IDE
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
@@ -62,6 +62,10 @@ Seleccionar en PORTS: COMx (Dependera del puerto asignado desde su computadora)
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\C++\1_Parpadeo/2.png" alt="JuveYell" width="700px"></p></div>
 
 ### Programación con OpenPLC IDE (Ladder)
+
+Descarguemos el software OpenPLC para programar el Arduino Nano en [Descargar OpenPLC](https://autonomylogic.com/)
+
+Reconoscamos las herramientas de OpenPLC
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Ladder\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
 
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Ladder\1_Parpadeo/1.png" alt="JuveYell" width="700px"></p></div>
@@ -73,6 +77,10 @@ Seleccionar en PORTS: COMx (Dependera del puerto asignado desde su computadora)
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Ladder\1_Parpadeo/4.png" alt="JuveYell" width="700px"></p></div>
 
 ### Programación con Fab Blocks (Bloques)
+
+Descarguemos el software Fab Blocks IDE para programar el Arduino Nano en [Descargar Fab Blocks IDE](https://github.com/codigospace/Fab-Blocks-IDE/releases)
+
+Reconoscamos las herramientas de Fab Blocks IDE
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Blockly\1_Parpadeo/0.png" alt="JuveYell" width="700px"></p></div>
 
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Programming\Blockly\1_Parpadeo/1.png" alt="JuveYell" width="700px"></p></div>
