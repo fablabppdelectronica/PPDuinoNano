@@ -34,6 +34,8 @@ Lista de componentes
 
 ### Entradas
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1/Entradas/PPDuino Nano Entradas SCH.png" alt="JuveYell" width="700px"></p></div>
+Liste de componentes
+<table><tr><th>Reference</th><td>Value</td><td>Footprint</td><td>Qty</td></tr><tr><th>D1</th><td>DI0</td><td>LED_THT:LED_D3.0mm_IRBlack</td><td>1</td></tr><tr><th>D2</th><td>DI1</td><td>LED_THT:LED_D3.0mm_IRBlack</td><td>1</td></tr><tr><th>D3</th><td>DI2</td><td>LED_THT:LED_D3.0mm_IRBlack</td><td>1</td></tr><tr><th>D4,D5</th><td>DI3</td><td>LED_THT:LED_D3.0mm_IRBlack</td><td>2</td></tr><tr><th>D6,D7</th><td>Z5.1V</td><td>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td><td>2</td></tr><tr><th>J2</th><td>DI</td><td>Borneras:TerminalBlock_Altech_AK300-4_P5.00mm</td><td>1</td></tr><tr><th>J3</th><td>AI</td><td>Borneras:TerminalBlock_Altech_AK300-4_P5.00mm</td><td>1</td></tr><tr><th>J10</th><td>PWR_OUT</td><td>Borneras:TerminalBlock_Altech_AK300-2_P5.00mm</td><td>1</td></tr><tr><th>J11</th><td>INPUTS</td><td>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</td><td>1</td></tr><tr><th>Q1,Q2,Q3,Q4</th><td>BC548</td><td>Package_TO_SOT_THT:TO-92L_Inline_Wide</td><td>4</td></tr><tr><th>R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R14,R15,R16,R17</th><td>2.2k</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>16</td></tr><tr><th>R13</th><td>1k</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>1</td></tr></table>
 
 ### Salidas
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1/Salidas/PPDuino Nano Salidas SCH.png" alt="JuveYell" width="700px"></p></div>
