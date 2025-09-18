@@ -29,6 +29,18 @@ Para conseguir el Producto Mínimo Viable, se siguieron la secuencia que se mues
 ## Diseño Electrónico
 ### Procesador
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1\Procesador\PPDuino Nano Procesador SCH.png" alt="JuveYell" width="700px"></p></div>
+Lista de componentes
+| Reference | Value        | Footprint                                                    | Qty |
+|-----------|--------------|--------------------------------------------------------------|-----|
+| A1        | Arduino Nano | Module:Arduino_Nano                                          | 1   |
+| C1        | 100uF        | Capacitor_THT:CP_Radial_D5.0mm_P2.50mm                       | 1   |
+| C2        | 10uF         | Capacitor_THT:CP_Radial_D5.0mm_P2.50mm                       | 1   |
+| J1        | PWR_IN       | Borneras:TerminalBlock_Altech_AK300-2_P5.00mm                | 1   |
+| J2        | Conn_01x12   | Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Horizontal | 1   |
+| J11       | INPUTS       | Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical   | 1   |
+| J12       | OUTPUTS      | Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical   | 1   |
+| U1        | L7805        | Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown               | 1   |
+| U6        | +5V          | Codigo_lib:Mini 560 Pro                                      | 1   |
 
 ### Entradas
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1/Entradas/PPDuino Nano Entradas SCH.png" alt="JuveYell" width="700px"></p></div>
