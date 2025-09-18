@@ -30,17 +30,7 @@ Para conseguir el Producto Mínimo Viable, se siguieron la secuencia que se mues
 ### Procesador
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1\Procesador\PPDuino Nano Procesador SCH.png" alt="JuveYell" width="700px"></p></div>
 Lista de componentes
-| Reference | Value        | Footprint                                                    | Qty |
-|-----------|--------------|--------------------------------------------------------------|-----|
-| A1        | Arduino Nano | Module:Arduino_Nano                                          | 1   |
-| C1        | 100uF        | Capacitor_THT:CP_Radial_D5.0mm_P2.50mm                       | 1   |
-| C2        | 10uF         | Capacitor_THT:CP_Radial_D5.0mm_P2.50mm                       | 1   |
-| J1        | PWR_IN       | Borneras:TerminalBlock_Altech_AK300-2_P5.00mm                | 1   |
-| J2        | Conn_01x12   | Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Horizontal | 1   |
-| J11       | INPUTS       | Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical   | 1   |
-| J12       | OUTPUTS      | Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical   | 1   |
-| U1        | L7805        | Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown               | 1   |
-| U6        | +5V          | Codigo_lib:Mini 560 Pro                                      | 1   |
+<table><tr><th>Reference</th><td>Value</td><td>Footprint</td><td>Qty</td></tr><tr><th>A1</th><td>Arduino Nano</td><td>Module:Arduino_Nano</td><td>1</td></tr><tr><th>C1</th><td>100uF</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>1</td></tr><tr><th>C2</th><td>10uF</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>1</td></tr><tr><th>J1</th><td>PWR_IN</td><td>Borneras:TerminalBlock_Altech_AK300-2_P5.00mm</td><td>1</td></tr><tr><th>J2</th><td>Conn_01x12</td><td>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Horizontal</td><td>1</td></tr><tr><th>J11</th><td>INPUTS</td><td>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</td><td>1</td></tr><tr><th>J12</th><td>OUTPUTS</td><td>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</td><td>1</td></tr><tr><th>U1</th><td>L7805</td><td>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</td><td>1</td></tr><tr><th>U6</th><td>+5V</td><td>Codigo_lib:Mini 560 Pro</td><td>1</td></tr></table>
 
 ### Entradas
 <div><p style = 'text-align:center;'><img src="/PPDuino_Nano_Electronic\V0.1/Entradas/PPDuino Nano Entradas SCH.png" alt="JuveYell" width="700px"></p></div>
