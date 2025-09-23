@@ -23,15 +23,13 @@ String mqttUser = "ugordillo";
 String mqttPassword = "12345678";
 bool mqttTls = false;
 bool mqttConnect = false;
-//bool mqttCheck = false;
-
-bool modeMqtt = false;    // Para ejecutar Read o Write por MQTT
-bool stateMqtt = false;   // Para habilitar ejecucion de comando con MQTT
 
 char mqttServerArray[50];
 char messageArray[50];
 char topicArray[50];
 
+bool modeMqtt = false;    // Para ejecutar Read o Write por MQTT
+bool stateMqtt = false;   // Para habilitar ejecucion de comando con MQTT
 char inChar;
 String inString = "",inTopic = "",inMessage = "";
 
@@ -129,7 +127,7 @@ bool mqttConnectGo() {
     if (mqttClient.connect(mqttId.c_str())) {
       Serial.print("Connected");
       // Once connected, publish an announcement...
-      mqttClient.publish("Codigo", "Hello, I am ESP8266");
+      mqttClient.publish("codigo/cpu", "Hello, I am ESP8266 :)");
     } else {
       Serial.print(".");
       delay(5000);
@@ -188,9 +186,16 @@ void loop() {
         mqttLoop();
       }
     }
+    else{
+      ;
+    }
+  }
+  // No conectado conectado wifi
+  else{
+    ;
   }
   // -------------------------------------
-  // Comando para comunicacion MQTT si esta habilitado
+  // Habilitado comando para comunicacion MQTT
   if (stateMqtt) {
     stateMqtt = false;  // Solo se ejecuta 1 vez
     Serial.print(inTopic);
@@ -494,8 +499,8 @@ void loop() {
       }
     }
   }
+  // No habilitado para comunicación MQTT
   else{
-    // No habilitado comunicación MQTT
     ;
   }
 }
