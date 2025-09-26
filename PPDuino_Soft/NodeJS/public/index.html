@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Control MQTT</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      font-size: 2rem;
+    }
+
+    #sensor {
+      font-size: 1.2rem;
+      margin: 15px 0;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .btn-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      font-size: 1.2rem;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      flex: 1 1 150px;
+      max-width: 200px;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .on {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .off {
+      background-color: #f44336;
+      color: white;
+    }
+
+    .chart-container {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      height: 600px; /* 🔥 Doble de tamaño (antes ~300px) */
+      margin: auto;
+    }
+
+    canvas {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Responsivo */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      #sensor {
+        font-size: 1rem;
+      }
+      button {
+        font-size: 1rem;
+        padding: 12px 20px;
+      }
+      .chart-container {
+        height: 400px; /* 🔥 En móviles también más grande */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Control IoT</h1>
+  
+  <div id="sensor">Esperando datos del pulsador ...</div>
+
+  <div class="btn-container">
+    <button class="on" onclick="publicarON()">Encender (ON)</button>
+    <button class="off" onclick="publicarOFF()">Apagar (OFF)</button>
+  </div>
+
+  <div class="chart-container">
+    <canvas id="sensorChart"></canvas>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    function publicarON() {
+      fetch('/on');
+    }
+
+    function publicarOFF() {
+      fetch('/off');
+    }
+
+    // Inicializar gráfico con Chart.js
+    const ctx = document.getElementById('sensorChart').getContext('2d');
+    const sensorChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Sensor',
+          data: [],
+          borderColor: 'blue',
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.2
+        }]
+      },
+      options: {
+        animation: false,
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            title: { display: true, text: 'Tiempo' }
+          },
+          y: {
+            min: 0,
+            max: 1030,
+            title: { display: true, text: 'Valor' }
+          }
+        }
+      }
+    });
+
+    // Recibir datos del sensor desde el servidor
+    socket.on('sensorData', (data) => {
+      document.getElementById('sensor').innerText = "Valor sensor: " + data;
+
+      const now = new Date().toLocaleTimeString();
+
+      sensorChart.data.labels.push(now);
+      sensorChart.data.datasets[0].data.push(Number(data));
+
+      // Mantener solo los últimos 20 puntos
+      if (sensorChart.data.labels.length > 20) {
+        sensorChart.data.labels.shift();
+        sensorChart.data.datasets[0].data.shift();
+      }
+
+      sensorChart.update();
+    });
+  </script>
+</body>
+</html>
