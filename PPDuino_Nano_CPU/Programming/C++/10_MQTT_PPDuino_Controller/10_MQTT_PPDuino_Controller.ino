@@ -4,10 +4,10 @@ void mqttExecute(){
   if (mqttExecutingFlag){
     if (topico == "codigo/relay"){
       if (mensaje == "ON"){
-        digitalWrite(13,HIGH);
+        digitalWrite(9,HIGH);
       }
       else if (mensaje == "OFF"){
-        digitalWrite(13,LOW);
+        digitalWrite(9,LOW);
       }
     }
   }
@@ -16,8 +16,8 @@ void mqttExecute(){
 void setup() {
   mqttBegin();
   Serial.begin(9600);       // monitor serie
-  pinMode(13,OUTPUT);
-  digitalWrite(13,LOW);
+  pinMode(9,OUTPUT);
+  digitalWrite(9,LOW);
 }
 
 void loop() {
